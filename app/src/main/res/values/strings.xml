@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RestorauntApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="order_food">Naruči hranu</string>
+    <string name="reserve_table">Rezerviraj stol</string>
+    <string name="restoraunt_name">Restoran EX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="return_button">Povratak</string>
+    <string name="order">Naruči</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="end_order_button">Završi narudžbu</string>
+    <string name="finish_order_button">Završi narudžbu</string>
+    <string name="pay_button">Dovrsi i plati</string>
+    <string name="address">Adresa:</string>
+    <string name="enter_address">Unesite adresu</string>
+    <string name="way_of_paying">Odaberi način plaćanja:</string>
+    <string name="creditcard_pay">Plati karticom</string>
+    <string name="pay_on_delivery">Plati po dostavi</string>
+    <string name="reservation_description">Da bi rezervirali stol potrebno je odabrati željeni datum. Rezervacije vrijede od 19:00 do 20:00. Ako se ne pojavite u tome roku rezervacija neće važiti!</string>
+    <string name="pick_date_button">Odaberi datum</string>
+    <string name="confirm_button">Potvrdi</string>
+    <string name="dish_picture_description">Slika jela</string>
+    <string name="remove_button_description">Izbriši</string>
+    <string name="emai">Email</string>
+    <string name="password">Lozinka</string>
+    <string name="confirm_password">Ponovite lozinku</string>
+    <string name="register">Registriraj se</string>
+    <string name="signUp">Prijavi se</string>
+    <string name="pick_time_button">Odaberi vrijeme</string>
+    <string name="reservations_button">Moje rezervacije</string>
+    <string name="my_table_reservations">Rezervacije stolova</string>
+    <string name="my_food_reservations">Rezervacije jela</string>
+
+</resources>

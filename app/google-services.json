@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535338902081",
+    "project_id": "restoran-4b061",
+    "storage_bucket": "restoran-4b061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535338902081:android:51a3372ec4879401171cc0",
+        "android_client_info": {
+          "package_name": "hr.ferit.dariobarukcic.restorauntapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535338902081-pk6m4ofbuk7hso1eckpmh37pjcibqrmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0enC0AVLRc36qtX_jQl8zOW708SZL6K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535338902081-pk6m4ofbuk7hso1eckpmh37pjcibqrmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

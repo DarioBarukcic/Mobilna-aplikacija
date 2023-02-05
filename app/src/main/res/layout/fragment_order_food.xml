@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderFoodFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/outer_space_crayola">
+
+        <Button
+            android:id="@+id/orderFoodReturnButton"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="@string/return_button"
+
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/endPickingButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black_coral"
+            android:textColor="@color/mint_cream"/>
+
+        <Button
+            android:id="@+id/endPickingButton"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="@string/end_order_button"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/orderFoodReturnButton"
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="@color/black_coral"
+            android:textColor="@color/mint_cream"/>
+
+        <TextView
+            android:id="@+id/counterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/mint_cream"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodRecyclerView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/foodRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/counterTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orderFoodReturnButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
